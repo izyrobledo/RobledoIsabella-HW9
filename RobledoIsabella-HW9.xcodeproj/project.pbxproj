@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		834791E521222985002AFEEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834791E421222985002AFEEA /* AppDelegate.swift */; };
+		834791E721222985002AFEEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834791E621222985002AFEEA /* ViewController.swift */; };
+		834791EA21222985002AFEEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 834791E821222985002AFEEA /* Main.storyboard */; };
+		834791EC21222986002AFEEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 834791EB21222986002AFEEA /* Assets.xcassets */; };
+		834791EF21222986002AFEEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 834791ED21222986002AFEEA /* LaunchScreen.storyboard */; };
+		834791FA21222986002AFEEA /* RobledoIsabella_HW9Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834791F921222986002AFEEA /* RobledoIsabella_HW9Tests.swift */; };
+		8347920521222986002AFEEA /* RobledoIsabella_HW9UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8347920421222986002AFEEA /* RobledoIsabella_HW9UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		834791F621222986002AFEEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 834791D921222985002AFEEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 834791E021222985002AFEEA;
+			remoteInfo = "RobledoIsabella-HW9";
+		};
+		8347920121222986002AFEEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 834791D921222985002AFEEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 834791E021222985002AFEEA;
+			remoteInfo = "RobledoIsabella-HW9";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		834791E121222985002AFEEA /* RobledoIsabella-HW9.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RobledoIsabella-HW9.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		834791E421222985002AFEEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		834791E621222985002AFEEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		834791E921222985002AFEEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		834791EB21222986002AFEEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		834791EE21222986002AFEEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		834791F021222986002AFEEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		834791F521222986002AFEEA /* RobledoIsabella-HW9Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RobledoIsabella-HW9Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		834791F921222986002AFEEA /* RobledoIsabella_HW9Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobledoIsabella_HW9Tests.swift; sourceTree = "<group>"; };
+		834791FB21222986002AFEEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8347920021222986002AFEEA /* RobledoIsabella-HW9UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RobledoIsabella-HW9UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8347920421222986002AFEEA /* RobledoIsabella_HW9UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobledoIsabella_HW9UITests.swift; sourceTree = "<group>"; };
+		8347920621222986002AFEEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		834791DE21222985002AFEEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834791F221222986002AFEEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834791FD21222986002AFEEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		834791D821222985002AFEEA = {
+			isa = PBXGroup;
+			children = (
+				834791E321222985002AFEEA /* RobledoIsabella-HW9 */,
+				834791F821222986002AFEEA /* RobledoIsabella-HW9Tests */,
+				8347920321222986002AFEEA /* RobledoIsabella-HW9UITests */,
+				834791E221222985002AFEEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		834791E221222985002AFEEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				834791E121222985002AFEEA /* RobledoIsabella-HW9.app */,
+				834791F521222986002AFEEA /* RobledoIsabella-HW9Tests.xctest */,
+				8347920021222986002AFEEA /* RobledoIsabella-HW9UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		834791E321222985002AFEEA /* RobledoIsabella-HW9 */ = {
+			isa = PBXGroup;
+			children = (
+				834791E421222985002AFEEA /* AppDelegate.swift */,
+				834791E621222985002AFEEA /* ViewController.swift */,
+				834791E821222985002AFEEA /* Main.storyboard */,
+				834791EB21222986002AFEEA /* Assets.xcassets */,
+				834791ED21222986002AFEEA /* LaunchScreen.storyboard */,
+				834791F021222986002AFEEA /* Info.plist */,
+			);
+			path = "RobledoIsabella-HW9";
+			sourceTree = "<group>";
+		};
+		834791F821222986002AFEEA /* RobledoIsabella-HW9Tests */ = {
+			isa = PBXGroup;
+			children = (
+				834791F921222986002AFEEA /* RobledoIsabella_HW9Tests.swift */,
+				834791FB21222986002AFEEA /* Info.plist */,
+			);
+			path = "RobledoIsabella-HW9Tests";
+			sourceTree = "<group>";
+		};
+		8347920321222986002AFEEA /* RobledoIsabella-HW9UITests */ = {
+			isa = PBXGroup;
+			children = (
+				8347920421222986002AFEEA /* RobledoIsabella_HW9UITests.swift */,
+				8347920621222986002AFEEA /* Info.plist */,
+			);
+			path = "RobledoIsabella-HW9UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		834791E021222985002AFEEA /* RobledoIsabella-HW9 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8347920921222986002AFEEA /* Build configuration list for PBXNativeTarget "RobledoIsabella-HW9" */;
+			buildPhases = (
+				834791DD21222985002AFEEA /* Sources */,
+				834791DE21222985002AFEEA /* Frameworks */,
+				834791DF21222985002AFEEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RobledoIsabella-HW9";
+			productName = "RobledoIsabella-HW9";
+			productReference = 834791E121222985002AFEEA /* RobledoIsabella-HW9.app */;
+			productType = "com.apple.product-type.application";
+		};
+		834791F421222986002AFEEA /* RobledoIsabella-HW9Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8347920C21222986002AFEEA /* Build configuration list for PBXNativeTarget "RobledoIsabella-HW9Tests" */;
+			buildPhases = (
+				834791F121222986002AFEEA /* Sources */,
+				834791F221222986002AFEEA /* Frameworks */,
+				834791F321222986002AFEEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				834791F721222986002AFEEA /* PBXTargetDependency */,
+			);
+			name = "RobledoIsabella-HW9Tests";
+			productName = "RobledoIsabella-HW9Tests";
+			productReference = 834791F521222986002AFEEA /* RobledoIsabella-HW9Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		834791FF21222986002AFEEA /* RobledoIsabella-HW9UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8347920F21222986002AFEEA /* Build configuration list for PBXNativeTarget "RobledoIsabella-HW9UITests" */;
+			buildPhases = (
+				834791FC21222986002AFEEA /* Sources */,
+				834791FD21222986002AFEEA /* Frameworks */,
+				834791FE21222986002AFEEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8347920221222986002AFEEA /* PBXTargetDependency */,
+			);
+			name = "RobledoIsabella-HW9UITests";
+			productName = "RobledoIsabella-HW9UITests";
+			productReference = 8347920021222986002AFEEA /* RobledoIsabella-HW9UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		834791D921222985002AFEEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Robledo, Isabella B";
+				TargetAttributes = {
+					834791E021222985002AFEEA = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					834791F421222986002AFEEA = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 834791E021222985002AFEEA;
+					};
+					834791FF21222986002AFEEA = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 834791E021222985002AFEEA;
+					};
+				};
+			};
+			buildConfigurationList = 834791DC21222985002AFEEA /* Build configuration list for PBXProject "RobledoIsabella-HW9" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 834791D821222985002AFEEA;
+			productRefGroup = 834791E221222985002AFEEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				834791E021222985002AFEEA /* RobledoIsabella-HW9 */,
+				834791F421222986002AFEEA /* RobledoIsabella-HW9Tests */,
+				834791FF21222986002AFEEA /* RobledoIsabella-HW9UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		834791DF21222985002AFEEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				834791EF21222986002AFEEA /* LaunchScreen.storyboard in Resources */,
+				834791EC21222986002AFEEA /* Assets.xcassets in Resources */,
+				834791EA21222985002AFEEA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834791F321222986002AFEEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834791FE21222986002AFEEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		834791DD21222985002AFEEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				834791E721222985002AFEEA /* ViewController.swift in Sources */,
+				834791E521222985002AFEEA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834791F121222986002AFEEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				834791FA21222986002AFEEA /* RobledoIsabella_HW9Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834791FC21222986002AFEEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8347920521222986002AFEEA /* RobledoIsabella_HW9UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		834791F721222986002AFEEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 834791E021222985002AFEEA /* RobledoIsabella-HW9 */;
+			targetProxy = 834791F621222986002AFEEA /* PBXContainerItemProxy */;
+		};
+		8347920221222986002AFEEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 834791E021222985002AFEEA /* RobledoIsabella-HW9 */;
+			targetProxy = 8347920121222986002AFEEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		834791E821222985002AFEEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				834791E921222985002AFEEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		834791ED21222986002AFEEA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				834791EE21222986002AFEEA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8347920721222986002AFEEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8347920821222986002AFEEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8347920A21222986002AFEEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "RobledoIsabella-HW9/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CS371.RobledoIsabella-HW9";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8347920B21222986002AFEEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "RobledoIsabella-HW9/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CS371.RobledoIsabella-HW9";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8347920D21222986002AFEEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "RobledoIsabella-HW9Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CS371.RobledoIsabella-HW9Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RobledoIsabella-HW9.app/RobledoIsabella-HW9";
+			};
+			name = Debug;
+		};
+		8347920E21222986002AFEEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "RobledoIsabella-HW9Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CS371.RobledoIsabella-HW9Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RobledoIsabella-HW9.app/RobledoIsabella-HW9";
+			};
+			name = Release;
+		};
+		8347921021222986002AFEEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "RobledoIsabella-HW9UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CS371.RobledoIsabella-HW9UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RobledoIsabella-HW9";
+			};
+			name = Debug;
+		};
+		8347921121222986002AFEEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "RobledoIsabella-HW9UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CS371.RobledoIsabella-HW9UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RobledoIsabella-HW9";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		834791DC21222985002AFEEA /* Build configuration list for PBXProject "RobledoIsabella-HW9" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8347920721222986002AFEEA /* Debug */,
+				8347920821222986002AFEEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8347920921222986002AFEEA /* Build configuration list for PBXNativeTarget "RobledoIsabella-HW9" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8347920A21222986002AFEEA /* Debug */,
+				8347920B21222986002AFEEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8347920C21222986002AFEEA /* Build configuration list for PBXNativeTarget "RobledoIsabella-HW9Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8347920D21222986002AFEEA /* Debug */,
+				8347920E21222986002AFEEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8347920F21222986002AFEEA /* Build configuration list for PBXNativeTarget "RobledoIsabella-HW9UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8347921021222986002AFEEA /* Debug */,
+				8347921121222986002AFEEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 834791D921222985002AFEEA /* Project object */;
+}
