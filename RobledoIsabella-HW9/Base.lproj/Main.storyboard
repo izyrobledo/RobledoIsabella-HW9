@@ -23,8 +23,16 @@
                     <navigationItem key="navigationItem" id="SNs-EA-Xgm"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="right" id="dAe-J3-fFT"/>
-                <tapGestureRecognizer id="gEn-vy-AVf"/>
+                <swipeGestureRecognizer direction="right" id="dAe-J3-fFT">
+                    <connections>
+                        <action selector="recognizeSwipeGestureWithRecognizer:" destination="BYZ-38-t0r" id="TWu-zw-wEy"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <tapGestureRecognizer id="gEn-vy-AVf">
+                    <connections>
+                        <action selector="recognizeTapGestureWithRecognizer:" destination="BYZ-38-t0r" id="GIX-ld-edL"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="839.20000000000005" y="117.39130434782609"/>
         </scene>
