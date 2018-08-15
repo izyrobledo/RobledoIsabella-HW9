@@ -1,7 +1,8 @@
 //
 //  AppDelegate.swift
 //  RobledoIsabella-HW9
-//
+//  EID: ibr79
+//  Course: CS371L
 //  Created by Robledo, Isabella B on 8/13/18.
 //  Copyright © 2018 Robledo, Isabella B. All rights reserved.
 //
